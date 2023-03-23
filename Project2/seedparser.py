@@ -36,12 +36,12 @@ class Seed():
         self.seed_metadata = self.seed_json.pop("meta")
         self.seed_number = self.seed_metadata['world_id']
 
-        # self.playthrough = self.seed_json.pop("playthrough")
+        self.playthrough = self.seed_json.pop("playthrough")
         # self.shops = self.seed_json.pop("Shops")
         # self.starting_gear = self.seed_json.pop("Equipped")
         # self.other_stuff = self.seed_json.pop("Special")
         # self.bosses = self.seed_json.pop('Bosses')
-        # self.playthrough = json.dumps(self.playthrough)
+        self.playthrough = json.dumps(self.playthrough)
 
         self.population = self.seed_json.pop("populationRate")
         self.urban = self.seed_json.pop("urbanization")
@@ -66,7 +66,7 @@ class Seed():
         self.t = self.seed_json.pop("t")
         # self.shops = self.seed_json.pop("Shops")
         # self.shops = self.seed_json.pop("Shops")
-
+        self.playthrough = json.dumps(self.playthrough)
 
 
 
