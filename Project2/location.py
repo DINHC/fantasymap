@@ -5,21 +5,21 @@ from login import postgres_username, postgres_password
 from tables import LocationMetadata
 import re
 
-db_string = f'postgresql://{postgres_username}:{postgres_password}@localhost/alttpr'
+db_string = f'postgresql://{postgres_username}:{postgres_password}@localhost/fantasymap'
 
 db = create_engine(db_string, echo=True)
 Session = sessionmaker(bind=db)
 
-locations_filepath = 'resources/locations/overworld.json'
+locations_filepath = 'Sanvily.json'
 
 def cleanJson(json):
-    return re.sub('\/\/.*\n','',str(json))
+     return re.sub('\/\/.*\n','',str(json))
 
-with open(locations_filepath, 'r') as lfile:
+with open(locations_filepath) as lfile:
     content = lfile.read()
     overworld_locations : dict = json.loads(cleanJson(content))
 
-dlocations_filepath = 'resources/locations/dungeons.json'
+dlocations_filepath = 'resources\Sanvily.json'
 
 def repregion(content):
     pattern = "(^[ \t]*)(\"[\w+\' ]+\"): {"
@@ -38,12 +38,12 @@ def makeLocationMetadata():
     ###################
     # Start of Session
     ###################
-    # session = Session()
+    session = Session()
 
     ##########
     # Location Data
     ##########
-    # table = LocationMetadata.__table__
+    table = LocationMetadata.__table__
 
     # table.drop(db)
     # table.create(db)
@@ -85,13 +85,13 @@ def makeLocationMetadata():
     for region in dungeon_locations:
         add_loc_from_region(region)
 
-    # session.commit()
+    session.commit()
     ##########
     # Commit/End Location Data
     ##########
 
 
-    # session.close()
+    session.close()
     ###################
     # Session Closed
     ###################
