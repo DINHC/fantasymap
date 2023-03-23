@@ -13,7 +13,7 @@ var map = L.map('map', {
 });
 
 var i1bounds = [[0, 0], [2007, 4014]]
-var image1 = L.imageOverlay('resources/Sanvily.png', i1bounds)
+var image1 = L.imageOverlay('resources/Sanvily2.png', i1bounds)
 image1.addTo(map)
 
 // var i2bounds = [[0, 2007], [2007, 4014]]

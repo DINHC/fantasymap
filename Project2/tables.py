@@ -268,4 +268,4 @@ class Seeds(base):
     __tablename__ = 'seeds'
     seed_guid = Column(String, primary_key=True)
     location = Column(String, primary_key=True)
-    item = Column(String, primary_key=True)
+    #item = Column(String, primary_key=True)
