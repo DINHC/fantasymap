@@ -1,0 +1,11 @@
+I originally named this folder Project 1 but switched to attempt 1. 
+Reason  being the attempt failed for now. I tried using techtrails method of getting a png map from Azgaar's map generator site and then using a code in combination with Photoshop...
+would create several compressed layers of the image making it possible to zoom in and out. 
+The attempt failed at the photoshop stage. Photoshop failed. I retried several times and was unable to cut the tiles. 
+
+I will come back to this when I can either: 
+1. Find an already processed png/map 
+
+2. Reach out to someone who is willing to create the layers/tiles for me 
+
+Until then this attempt will be listed ass a failiure (3/24/2023)
