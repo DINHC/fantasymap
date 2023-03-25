@@ -10,7 +10,7 @@ The only working part is the png map displaying via the index.html code. It can 
 
 I believe the json I acquire from Azgaar's site is messy and I moving forward I will be making a new folder called attempt 3. This will be simplier and take what works here
 and use it in there. I will be making a simple json with basic info. Such as population, weather, danger level, religion, and so on since its a fantasy map and try to populate the 
-png map with it. I will try with one and see where that takes me 
+png map with it. I will try with one and see where that takes me (3/24/2023)
 
 
 AS A NOTE THIS WAS DONE IN PART AS A SORT OF TEST FOR MYSELF THAT COMBINES MY LOVE OF DND WITH MY CODING SKILLS. IF I SUCCEED GREAT. IF I FAIL THEN I WILL LEARN FROM IT AND 
