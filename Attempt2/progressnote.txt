@@ -1,0 +1,22 @@
+This was an attempt at making the map using a different method than Attempt 1. This time using mewo2 code as a base the idea was to to design a map that can be altered. 
+
+The first try was understanding and utilizing mewo2 code which required terrain.js, priority-queue.js and lang.js (The idea was not only the map could be altered but the language as well)
+
+The initial attempt with their code failed and then in order to salvage it. I attempted to use code from a prior project that took a png of a game map and overlaid it with markers. 
+
+This in turn resulted in the messy layout of code that does not work. 
+
+The only working part is the png map displaying via the index.html code. It can zoom in and out and move about but nothing populates
+
+I believe the json I acquire from Azgaar's site is messy and I moving forward I will be making a new folder called attempt 3. This will be simplier and take what works here
+and use it in there. I will be making a simple json with basic info. Such as population, weather, danger level, religion, and so on since its a fantasy map and try to populate the 
+png map with it. I will try with one and see where that takes me 
+
+
+AS A NOTE THIS WAS DONE IN PART AS A SORT OF TEST FOR MYSELF THAT COMBINES MY LOVE OF DND WITH MY CODING SKILLS. IF I SUCCEED GREAT. IF I FAIL THEN I WILL LEARN FROM IT AND 
+MAYBE NEXT TIME CONSULT WITH OTHERS WHO ARE MORE ADEPT AT THIS OR TRY AGAIN LEARNING FROM WHAT WORKED AND FAILED AND MAYBE FIND AN EASIER WAY OF DOING MY GOAL FOR THIS REPO.
+
+The goal: 
+
+Make a map display markers for towns and cities. 
+
