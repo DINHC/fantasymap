@@ -1,0 +1,16 @@
+[
+
+{
+      "name": "Windom Capital",
+      "Description": "The main Capital City. Heavily populated with strict security",
+      "x":101,
+      "y":83
+},
+
+{
+    "name": "SeaShanty Town",
+    "Description": "As the name suggest it is a town by the sea. Popular among seafolk, it earned its name from the annual competition where people compete to see who can make a new catchy Sea Shanty",
+    "x": 1607,
+    "y": 230
+}
+]
